@@ -1,0 +1,104 @@
+body{
+    color:#30343f;
+    background-color: #fafaff;
+}
+h1,h2,h3{
+    font-family:  Courier;
+}
+h1{
+    color: #E3170A;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    letter-spacing: 10px;
+    font-weight: 900;
+
+}
+h2{
+    color: #273469;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: yellow;
+}
+p{
+    text-justify: auto;
+}
+img {
+    width: 10%; /* or any other value, such as pixels or em */
+    height: auto; /* setting height to auto will maintain the aspect ratio of the image */
+
+    /*box-shadow: 5px 5px 3px black;*/
+}
+.image-circle{
+    box-shadow: 5px 5px 3px black;
+    border-radius: 50%;
+}
+/*costom design with class*/
+.container{
+    width: 700px;
+    margin: 40px auto;
+}
+
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+        width: 700px;
+    }
+}
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+        width: 500px;
+    }
+}
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+        width: 300px;
+    }
+}
+
+
+
+.card-white{
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.btn-blue{
+    background-color: #6b72e1;
+    color: white ;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.btn-blue:hover {
+    background-color: #000000;
+    color: white ;
+}
+.list-inline{
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i{
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+    color: black;
+}
+#introduction p {
+    margin-bottom: 40px;
+
+}
